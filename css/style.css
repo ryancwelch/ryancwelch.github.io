@@ -185,8 +185,8 @@ nav a:hover {
 
 /* Publications section */
 .publication {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
     border-bottom: 1px solid var(--medium-gray);
 }
 
@@ -194,32 +194,35 @@ nav a:hover {
     border-bottom: none;
 }
 
-.publication-authors {
-    margin-bottom: 5px;
+.publication-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: var(--primary-color);
 }
 
-.publication-title {
-    font-weight: 600;
+.publication-authors {
     margin-bottom: 5px;
+    font-size: 1.1rem;
 }
 
 .publication-journal {
     font-style: italic;
     color: var(--dark-gray);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .publication-links {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .button {
     display: inline-block;
-    padding: 5px 15px;
+    padding: 6px 18px;
     background-color: var(--light-gray);
     border: 1px solid var(--medium-gray);
-    border-radius: 3px;
-    margin-right: 10px;
+    border-radius: 4px;
+    margin-right: 12px;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
